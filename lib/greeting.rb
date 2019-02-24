@@ -7,6 +7,6 @@ def clean(input)
 end
 
 def greeting(name)
-  clean(name)
+  name = clean(name)
   puts "Hello #{name}. It's nice to meet you."
 end
